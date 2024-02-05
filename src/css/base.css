@@ -1,0 +1,28 @@
+
+body {
+    font-family: "Inter", sans-serif;
+
+    color: #fbfbfb;
+    background: #0E1823;
+  }
+  
+  .container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+ 
+  }
+  @media only screen and (min-width: 768px) {
+   .container{
+    max-width: 768px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+   }
+  }
+  @media only screen and (min-width: 1280px) {
+     .container{
+      max-width: 1280px;
+      
+    }
+  }
