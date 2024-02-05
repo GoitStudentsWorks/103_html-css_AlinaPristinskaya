@@ -1,3 +1,8 @@
+.socmedia-footer{
+  display: flex;
+  gap:8px;
+  align-items: center;
+}
 .icon-footer{
     fill: #FBFBFB;
   }
