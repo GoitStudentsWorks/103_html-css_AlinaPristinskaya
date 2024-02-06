@@ -1,0 +1,69 @@
+.yachtjet-container {
+ background: #fbfbfb; 
+ border-radius: 24px;
+}
+
+.yachtjet-content{
+ padding:40px 20px 40px 20px;   
+}
+
+.yachtjet-title {
+ font-weight: 500;
+ font-size: 28px;
+ line-height: 1.0;
+ letter-spacing: -0.02em;
+ color: #1b414b;
+ margin-bottom: 40px;
+}
+
+.yachtjet-text{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+
+.yachtjet-text-hero {
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 100%;
+ letter-spacing: -0.02em;
+ color: #1b414b;
+}
+
+.yachtjet-text-basic{
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 1.17;
+ letter-spacing: -0.02em;
+ color: #040306;
+}
+
+.yachtjet-img {
+    border-radius: 0 24px 0 0;
+   width:100%;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 100px 50px;
+    }
+    .yachtjet-title{
+     font-size: 48px;
+     text-align: left;
+    }
+
+  .yachtjet-title {
+     text-align: left;
+
+    }
+
+
+}
+
+@media only screen and (min-width: 1280px) {
+    .container {
+        
+
+    }
+}
