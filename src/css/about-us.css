@@ -4,7 +4,8 @@
 }
 
 .yachtjet-container {
- background: #fbfbfb; 
+    display: block;
+ background-color: #fbfbfb;;
  border-radius: 24px;
 }
 
@@ -39,11 +40,11 @@
  color: #040306;
 }
 
-.yachtjet-img {
- /* border-radius: 0 24px 0 0; */
+.yachtjet-img-osnov{
+  border-radius:24px; 
  width:100%; 
+ object-fit: cover;
 }
-
 
 @media only screen and (min-width: 768px) {
     .container {
