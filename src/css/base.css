@@ -5,14 +5,16 @@ body {
     color: #fbfbfb;
     background: #0E1823;
   }
- h2{
+
+  h2{
+    font-family: "Inter", sans-serif;
 font-weight: 500;
-font-size: 48px;
+font-size: 28px;
 line-height: 1;
 letter-spacing: -0.02em;
-text-align: center;
+color: #1b414b;
+  }
 
- } 
   .container {
     max-width: 375px;
     padding-left: 20px;
@@ -21,12 +23,16 @@ text-align: center;
  
   }
   @media only screen and (min-width: 768px) {
+    h2{
+      font-size: 48px;
+    }
    .container{
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
     
    }
+
   }
   @media only screen and (min-width: 1280px) {
      .container{
