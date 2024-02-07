@@ -5,7 +5,14 @@ body {
     color: #fbfbfb;
     background: #0E1823;
   }
-  
+ h2{
+font-weight: 500;
+font-size: 48px;
+line-height: 1;
+letter-spacing: -0.02em;
+text-align: center;
+
+ } 
   .container {
     max-width: 375px;
     padding-left: 20px;
