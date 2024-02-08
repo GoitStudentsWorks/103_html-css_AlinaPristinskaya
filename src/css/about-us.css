@@ -1,33 +1,33 @@
 .container{
-  padding-top: 40px; 
-  padding-bottom: 40px; 
+ padding-bottom: 40px; 
 }
 
-.yachtjet-container {
-    display: block;
- background-color: #fbfbfb;;
- border-radius: 24px;
+.yachtjet-container{
+ min-height: 675px;
+ position: relative;
+ background-color: #fbfbfb;
+  border-radius: 24px; 
 }
-
 .yachtjet-content{
- padding:40px 20px 40px 20px;
-} 
-
+ padding:40px 20px 337px 20px;
+}
 .yachtjet-title {
  color: #1b414b;
  margin-bottom: 40px;
+ text-align: left; 
 }
 
 .yachtjet-text{
  display: flex;
  flex-direction: column;
  gap: 20px;
+ text-align: left;
 }
 
 .yachtjet-text-hero {
  font-weight: 400;
  font-size: 18px;
- line-height: 100%;
+ line-height: 1.0;
  letter-spacing: -0.02em;
  color: #1b414b;
 }
@@ -41,64 +41,78 @@
 }
 
 .yachtjet-img-osnov{
-  border-radius:24px; 
  width:100%; 
- object-fit: cover;
+ border-radius: 24px;
+ position:absolute;
+ bottom:-100px;
+ left:1px;
 }
 
 @media only screen and (min-width: 768px) {
-    .container {
-     padding-top: 50px;
-     padding-bottom: 75px;
-    }
-    .yachtjet-content{
-      text-align: left; 
-     padding: 50px 32px 50px 32px;
-    }
-    .yachtjet-title{
-     font-size: 48px;
-     width: 536px;
-     margin-bottom: 50px;
-    }
-    .yachtjet-text-hero{
-        font-size: 23px;
-    }
-    .yachtjet-text-basic{
-     font-size: 13px;
-     line-height: 1.15;
-    }
+ .container {
+   padding-top: 50px;
+   padding-bottom: 75px;
+ }
+ .yachtjet-content{
+    text-align: left; 
+   padding: 50px 32px 50px 32px;
+  }
+  .yachtjet-title{
+   font-size: 48px;
+   width: 536px;
+   margin-bottom: 50px;
+  }
+  .yachtjet-text-hero{
+    font-size: 23px;
+  }
+  .yachtjet-text-basic{
+   font-size: 13px;
+   line-height: 1.15;
+  }
+ .yachtjet-img-osnov {
+    position: absolute;
+    bottom: -276px;
+    left: 1px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .yachtjet-content {
-     display: flex;
-      flex-direction: row;
-     text-align: left;
-     padding: 50px 50px 100px 50px;
-   }
-    
-    .yachtjet-title {
-     max-width: 537px;
-     margin-right: 189px;
-    }
-    
-   .yachtjet-text{
-     max-width: 354px;
-   }  
+
+  .yachtjet-content {
+   display: flex;
+    flex-direction: row;
+   text-align: left;
+   padding: 50px 50px 100px 50px;
+ }  
+  .yachtjet-title {
+   max-width: 537px;
+   margin-right: 189px;
+  }  
+ .yachtjet-text{
+   max-width: 354px;
+ }  
+ .yachtjet-img-osnov {
+   position: absolute;
+   bottom: -155px;
+   left: 1px;
+ }
+
 }
 
 @media only screen and (min-width: 1440px) {
-    .container{
-        max-width: 1440px;
-    }
-
-    .yachtjet-title {
-     max-width: 537px;
-     margin-right: 299px;
-    }
-
-    .yachtjet-text {
-     max-width: 404px;
-    }
-
+ .container{
+    max-width: 1440px;
+  }
+  .yachtjet-title {
+   max-width: 537px;
+   margin-right: 299px;
+  }
+  .yachtjet-text {
+   max-width: 404px;
+  }
+  .yachtjet-img-osnov {
+    position: absolute;
+    bottom: -132px;
+    left: 1px;
+  }
 }
