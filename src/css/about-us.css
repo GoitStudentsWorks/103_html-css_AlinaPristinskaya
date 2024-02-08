@@ -13,8 +13,8 @@
 }
 .yachtjet-title {
  color: #1b414b;
- /* margin-bottom: 40px; */
- text-align: left; 
+ margin-bottom: 40px;
+ text-align:left; 
 }
 
 .yachtjet-text{
@@ -48,7 +48,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-<<<<<<< Updated upstream
  .container {
    padding-top: 50px;
    padding-bottom: 75px;
@@ -60,7 +59,7 @@
   .yachtjet-title{
    font-size: 48px;
    width: 536px;
-   /* margin-bottom: 50px; */
+   margin-bottom: 50px;
   }
   .yachtjet-text-hero{
     font-size: 23px;
@@ -69,28 +68,15 @@
    font-size: 13px;
    line-height: 1.15;
   }
- .yachtjet-img-osnov {
-    position: absolute;
-    /* bottom: -138px; */
+  .container {
   }
-=======
-    .container {
-        
-    }
-
-    .yachtjet-title{
-     font-size: 48px;
-     text-align: left;
-    }
-
-  
-
-
->>>>>>> Stashed changes
+  .yachtjet-title{
+   font-size: 48px;
+   text-align: left;
+  } 
 }
 
 @media only screen and (min-width: 1280px) {
-
   .yachtjet-content {
    display: flex;
     flex-direction: row;
@@ -104,11 +90,6 @@
  .yachtjet-text{
    max-width: 354px;
  }  
- .yachtjet-img-osnov {
-   position: absolute;
-   /* bottom: -78px; */
- }
-
 }
 
 @media only screen and (min-width: 1440px) {
@@ -124,6 +105,5 @@
   }
   .yachtjet-img-osnov {
     position: absolute;
-    /* bottom: -132px; */
   }
 }
