@@ -1,12 +1,153 @@
-.socmedia-footer{
-  display: flex;
-  gap:8px;
-  align-items: center;
+.footer-section {
+  margin-top: 40px;
+  background-color: #1B414B;
+  border-radius: 24px 24px 0px 0px;
 }
-.icon-footer{
-    fill: #FBFBFB;
+
+.container-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.paragraph-footer {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: #fbfbfb;
+}
+
+.list-button-link {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 4px;
+}
+
+.button-link {
+  border: none;
+  border-radius: 8px;
+  width: 66px;
+  height: 40px;
+  cursor: pointer;
+  background: rgba(251, 251, 251, 0.3);
+}
+
+.button-link:hover,
+.button-link:focus,
+.button-link:active {
+  background-color: #FBFBFB;
+}
+
+.link-na-section {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.button-link:hover>.link-na-section,
+.button-link:focus>.link-na-section,
+.button-link:active>.link-na-section {
+  color: #1b414b;
+}
+
+
+.socmedia-footer {
+  display: flex;
+  gap: 8px;
+  margin-top: 80px;
+}
+
+.icon-footer {
+  fill: #FBFBFB;
+}
+
+.icon-footer:hover,
+.icon-footer:focus {
+  fill: rgba(251, 251, 251, 0.8);
+}
+
+
+
+.paragraph-slogan-company {
+  max-width: 279px;
+  margin: 20px auto;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.list-info-footer {
+  display: inline-flex;
+  gap: 20px;
+}
+
+.info-footer-policy {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.4);
+}
+
+
+
+
+/* --------TABLET 768px------ */
+@media screen and (min-width: 768px) {
+  .def-cont-footer {
+    text-align: center;
   }
-  .icon-footer:hover,
-  .icon-footer:focus{
-    fill: rgba(251, 251, 251, 0.8);
+
+  .paragraph-footer {
+    font-size: 20px;
+  }
+
+  .button-link {
+    width: 91px;
+    height: 44px;
+    margin: auto;
+  }
+
+  .socmedia-footer {
+    margin-top: 0;
+
+  }
+
+  .paragraph-slogan-company {
+    max-width: 640px;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-top: 96px;
+
+  }
+
+  .list-info-footer {
+    margin-top: 99px;
+    margin-bottom: 20px;
+  }
+
+}
+
+
+/* --------DESCTOP 1280px----- */
+@media screen and (min-width: 1280px) {
+
+  .paragraph-slogan-company {
+    max-width: 693px;
+  }
   }
