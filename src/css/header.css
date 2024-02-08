@@ -1,6 +1,7 @@
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
+
 .header {
   background-color: #fbfbfb;
   display: flex;
@@ -18,12 +19,8 @@ html {
   letter-spacing: -0.03em;
   color: #1b414b;
 }
-.navigation {
-  display: none;
-}
 .navigation-list {
-}
-.navigation-item {
+  display: none;
 }
 .socmedia-list {
   display: none;
@@ -33,10 +30,9 @@ html {
 .socmedia-item {
   display: block;
 }
-.socmedia-icon {
-}
 .icon-sm {
   fill: #1b414b;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-sm:hover,
 .icon-sm:focus {
@@ -57,9 +53,20 @@ html {
 /**-------------------------------------------------------------------Modal menu  */
 
 .modal-menu-header {
-  background-color: aqua;
+  background-color: #0e1823;
   width: 375px;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 20px 40px;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .top-line-modal {
   background-color: #fbfbfb;
@@ -70,6 +77,7 @@ html {
   border-radius: 8px;
   padding: 7px 20px;
   margin: 0 auto;
+  margin-bottom: 201px;
 }
 .logo-menu {
   font-family: 'Inter', sans-serif;
@@ -80,39 +88,57 @@ html {
   margin-right: 215px;
 }
 .box-icon-close {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .icon-close {
   fill: #055545;
 }
 .navigation-menu {
+  margin-bottom: 361px;
 }
 .navigation-list-menu {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
+.navigation-item-menu {
+  display: block;
+}
 .navigation-link-menu {
+  display: block;
   border-radius: 8px;
   background-color: rgba(27, 65, 75, 0.5);
   padding: 15px 25px 15px 24px;
-}
-.navigation-item-menu {
   font-weight: 400;
   font-size: 9px;
   line-height: 1.3;
   text-transform: uppercase;
   text-align: center;
   color: #fbfbfb;
-  width: 42px;
-  height: 10px;
+  width: 91px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.navigation-link-menu:hover,
+.navigation-link-menu:focus {
+  background-color: #1b414b;
+}
+
 .socmedia-list-menu {
-}
-.socmedia-item-menu {
-}
-.socmedia-icon-menu {
+  display: flex;
+  gap: 8px;
 }
 .icon-sm-menu {
+  fill: #fbfbfb;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-sm-menu:hover,
+.icon-sm-menu:focus {
+  fill: rgba(251, 251, 251, 0.8);
 }
 
 /**------------------------------------------------------Tablet   */
@@ -127,7 +153,7 @@ html {
     margin-right: 113px;
   }
   .navigation {
-    display: flex;
+    display: block;
   }
   .navigation-list {
     display: flex;
@@ -136,26 +162,25 @@ html {
     margin-right: 92px;
   }
   .navigation-link {
+    display: block;
     border-radius: 8px;
     background-color: rgba(27, 65, 75, 0.5);
     padding: 15px 25px 15px 24px;
-  }
-  .navigation-item {
     font-weight: 400;
     font-size: 9px;
     line-height: 1.3;
     text-transform: uppercase;
     text-align: center;
     color: #fbfbfb;
-    width: 42px;
-    height: 10px;
+    width: 91px;
+    height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .navigation-link:hover,
   .navigation-link:focus,
   .navigation-link:active {
     background-color: #1b414b;
   }
-
   .socmedia-list {
     display: flex;
   }
@@ -199,5 +224,3 @@ html {
     margin-right: 362px;
   }
 }
-
-/* замінити структуру А-УЛ УЛ-А */
