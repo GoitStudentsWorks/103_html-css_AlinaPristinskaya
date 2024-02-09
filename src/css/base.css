@@ -29,11 +29,7 @@ letter-spacing: -0.02em;
   html {
     scroll-behavior: smooth;
   }
-  .is-hidden {
-    opacity: 1;
-    /* visibility: visible; */
-    pointer-events: auto;
-}
+
   @media only screen and (min-width: 768px) {
     h2{
       font-size: 48px;
