@@ -26,6 +26,9 @@ letter-spacing: -0.02em;
     padding-right: 10px;
     margin: 0 auto;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   @media only screen and (min-width: 768px) {
     h2{
       font-size: 48px;
