@@ -3,6 +3,7 @@
  background-color: #FBFBFB;
 }
 
+<<<<<<< Updated upstream
 
 .socmedia{
   display: none;
@@ -27,4 +28,257 @@
  .socmedia {
    display: flex;
  }
+=======
+.logo {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: #1b414b;
+}
+
+.navigation-list {
+  display: none;
+}
+
+.socmedia-list {
+  display: none;
+  gap: 8px;
+  align-items: center;
+}
+
+.socmedia-item {
+  display: block;
+}
+
+.icon-sm {
+  fill: #1b414b;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-sm:hover,
+.icon-sm:focus {
+  fill: #062730;
+}
+
+.box-icon-menu {
+  margin-left: auto;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-menu {
+  stroke: #1b414b;
+}
+
+/**-------------------------------------------------------------------Modal menu  */
+
+.modal-menu-header {
+  background-color: #0e1823;
+  width: 375px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 20px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.top-line-modal {
+  background-color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  max-width: 335px;
+  border: 1px solid #fbfbfb;
+  border-radius: 8px;
+  padding: 7px 20px;
+  margin: 0 auto;
+  margin-bottom: 201px;
+}
+
+.logo-menu {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: #1b414b;
+  margin-right: 215px;
+}
+
+.box-icon-close {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-close {
+  fill: #055545;
+}
+
+.navigation-menu {
+  margin-bottom: 361px;
+}
+
+.navigation-list-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.navigation-item-menu {
+  display: block;
+}
+
+.navigation-link-menu {
+  display: block;
+  border-radius: 8px;
+  background-color: rgba(27, 65, 75, 0.5);
+  padding: 15px 25px 15px 24px;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+  width: 91px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation-link-menu:hover,
+.navigation-link-menu:focus {
+  background-color: #1b414b;
+}
+
+.socmedia-list-menu {
+  display: flex;
+  gap: 8px;
+}
+
+.icon-sm-menu {
+  fill: #fbfbfb;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-sm-menu:hover,
+.icon-sm-menu:focus {
+  fill: rgba(251, 251, 251, 0.8);
+}
+
+/**------------------------------------------------------Tablet   */
+@media only screen and (min-width: 768px) {
+  .header {
+    max-width: 704px;
+    width: 100%;
+    padding: 4px 28px;
+  }
+
+  .logo {
+    font-size: 20px;
+    margin-right: 113px;
+  }
+
+  .navigation {
+    display: block;
+  }
+
+  .navigation-list {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin-right: 92px;
+  }
+
+  .navigation-link {
+    display: block;
+    border-radius: 8px;
+    background-color: rgba(27, 65, 75, 0.5);
+    padding: 15px 25px 15px 24px;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fbfbfb;
+    width: 91px;
+    height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .navigation-link:hover,
+  .navigation-link:focus,
+  .navigation-link:active {
+    background-color: #1b414b;
+  }
+
+  .socmedia-list {
+    display: flex;
+  }
+
+  .socmedia-item {
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+  }
+
+  .socmedia-icon {
+    display: block;
+  }
+
+  .box-icon-menu {
+    display: none;
+  }
+}
+
+/**----------------------------------------------------------Desktop 1280  */
+@media only screen and (min-width: 1280px) {
+  .header {
+    max-width: 1080px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .logo {
+    margin-right: 296px;
+  }
+
+  .navigation-list {
+    margin-right: 281px;
+  }
+}
+
+/**-----------------------------------------------------------Desktop 1440  */
+@media only screen and (min-width: 1440px) {
+  .header {
+    max-width: 1240px;
+    width: 100%;
+  }
+
+  .logo {
+    margin-right: 375px;
+  }
+
+  .navigation-list {
+    margin-right: 362px;
+  }
+>>>>>>> Stashed changes
 }
