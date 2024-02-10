@@ -3,32 +3,6 @@
  background-color: #FBFBFB;
 }
 
-<<<<<<< Updated upstream
-
-.socmedia{
-  display: none;
-  gap:8px;
-  align-items: center;
-}
-.iten-icon{
-  display: block;
-}
-.icon{
-  fill: #1B414B;
-}
-.icon:hover,
-.icon:focus{
-  fill:#062730;
-}
-.icon-buter{
-  stroke: #1B414B;
- 
-}
-@media only screen and (min-width: 768px) {
- .socmedia {
-   display: flex;
- }
-=======
 .logo {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
@@ -280,5 +254,4 @@
   .navigation-list {
     margin-right: 362px;
   }
->>>>>>> Stashed changes
 }
