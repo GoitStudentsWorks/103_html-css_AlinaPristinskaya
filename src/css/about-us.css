@@ -1,0 +1,117 @@
+.yachtjet{
+ padding-bottom: 40px; 
+}
+.yachtjet-container{
+ display: flex;
+ flex-direction: column;
+ border-radius: 24px; 
+ /* padding-left: 20px;
+ padding-right: 20px;
+ margin-left: auto; 
+ max-width: 375px; */
+}
+.yachtjet-content{
+  background-color: #fbfbfb;
+ border-radius: 24px;
+}
+.yachtjet-text{
+ display: flex;
+ flex-direction: column;
+ gap: 40px;
+ padding: 40px 20px;
+}
+.yachtjet-title {
+ color: #1b414b;
+ flex-shrink: 0;
+ min-width: 298px;
+}
+.yachtjet-about-text{
+ min-width:298px ;
+}
+.yachtjet-text-hero {
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 1.0;
+ letter-spacing: -0.02em;
+ color: #1b414b;
+ margin-bottom: 20px;
+}
+.yachtjet-text-basic{
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 1.17;
+ letter-spacing: -0.02em;
+ color: #040306;
+ max-width: 298px;
+}
+.yachtjet-img-osnov{
+ align-items: center;
+ border-radius: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .yachtjet {
+    padding-bottom: 75px;
+  }
+  .yachtjet-container {
+   margin-right: auto;
+   margin-left: auto; 
+   /* padding-left: 32px;
+   padding-right: 32px;
+   max-width: 768px; */
+  }
+  .yachtjet-text{
+    gap: 50px;
+    padding: 50px 136px 50px 32px;
+  }
+  .yachtjet-title{
+   font-size: 48px;
+   max-width: 536px;
+  }
+  .yachtjet-about-text {
+    max-width: 389px;
+  }
+  .yachtjet-text-hero{
+    font-size: 23px;
+  }
+  .yachtjet-text-basic{
+   font-size: 13px;
+   line-height: 1.15;
+   max-width: 389px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .yachtjet-container {
+    margin-right: auto;
+    margin-left: auto; 
+    /* padding-left: 50px;
+    padding-right: 50px;
+    max-width: 1280px; */
+  }
+ .yachtjet-text {
+   display: flex;
+   max-width: 1180px;
+   flex-direction: row;
+   gap: 189px;
+   align-items: flex-start;
+   flex-shrink: 0;
+   padding:50px 50px 100px 50px;
+ } 
+ .yachtjet-about-text {
+   max-width: 354px;
+ }
+}
+
+@media only screen and (min-width: 1440px) {
+ .yachtjet-container{
+    max-width: 1440px;
+  }
+  .yachtjet-text {
+   max-width: 1340px;
+   gap: 299px;
+  }
+  .yachtjet-about-text {
+    max-width: 404px;
+  }
+}
