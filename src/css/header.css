@@ -58,7 +58,8 @@
   padding: 16px 20px 40px 20px;
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -90,25 +91,21 @@
   margin-right: 215px;
 }
 .box-icon-close {
-  
   background-color: transparent;
   border: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 .close-menu-btn {
-  
   display: block;
   cursor: pointer;
   width: 28px;
   height: 28;
   margin-left: auto;
- 
+
   background-color: transparent;
   border: none;
-  
 }
 
 .icon-close {
@@ -117,10 +114,10 @@
   fill: #055545;
 }
 .mob-icon-buter {
-  stroke: #1B414B;
+  stroke: #1b414b;
 }
-.mob-icon-close{
-  fill:#055545
+.mob-icon-close {
+  fill: #055545;
 }
 .navigation-menu {
   margin-bottom: 361px;
