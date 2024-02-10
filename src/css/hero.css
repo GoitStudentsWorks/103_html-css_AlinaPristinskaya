@@ -25,7 +25,7 @@
     font-size: 32px;
     font-weight: 500;
     line-height: 32px;
-    letter-spacing: -2%;
+    letter-spacing: -0.002em;
     text-align: center;
     margin-bottom: 24px;
 }
@@ -35,7 +35,7 @@
     font-size: 12px;
     font-weight: 300;
     line-height: 14px;
-    letter-spacing: 0%;
+    letter-spacing: 0.001em;
     text-align: center;
 }
 
@@ -51,7 +51,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
-    letter-spacing: -2%;
+    letter-spacing: -0.002em;
     text-align: center;
     height: 46px;
     display: flex;
@@ -86,14 +86,12 @@
         font-size: 70px;
         font-weight: 500;
         line-height: 70px;
-        letter-spacing: -2%;
     }
 
     .hero-text {
         font-size: 16px;
         font-weight: 300;
         line-height: 140%;
-        letter-spacing: 0%;
     }
 
     .hero-btn {
@@ -106,7 +104,7 @@
         font-size: 18px;
         font-weight: 500;
         line-height: 110%;
-        letter-spacing: -2%;
+        letter-spacing: -0.002em;
     }
 }
 
@@ -131,13 +129,11 @@
         font-size: 80px;
         font-weight: 500;
         line-height: 80px;
-        letter-spacing: -2%;
     }
 
     .hero-text {
         font-weight: 300;
         line-height: 140%;
-        letter-spacing: 0%;
         width: 597px;
     }
 }
