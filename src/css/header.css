@@ -6,7 +6,12 @@
   border: 1px solid #fbfbfb;
   border-radius: 8px;
   padding: 7px 20px;
-  margin: 0 auto;
+  max-width: 335px;
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .logo {
   font-family: 'Inter', sans-serif;
@@ -45,7 +50,6 @@
 /* .icon-menu {
   stroke: #1b414b;
 } */
-
 
 .logo {
   font-family: 'Inter', sans-serif;
@@ -141,9 +145,6 @@
   margin-bottom: 361px;
 }
 
-
-
-
 .navigation-list-menu {
   display: flex;
   flex-direction: column;
@@ -153,7 +154,6 @@
   display: block;
 }
 .navigation-link-menu {
-
   display: block;
   border-radius: 8px;
   background-color: rgba(27, 65, 75, 0.5);
@@ -168,7 +168,6 @@
   height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .icon-sm {
   fill: #1b414b;
@@ -308,13 +307,13 @@
     max-width: 704px;
     width: 100%;
     padding: 4px 28px;
+    top: 32px;
   }
 
   .logo {
     font-size: 20px;
     margin-right: 113px;
   }
-
 
   .navigation {
     display: block;
@@ -349,7 +348,6 @@
     background-color: #1b414b;
   }
 
-
   .socmedia-list {
     display: flex;
   }
@@ -360,16 +358,14 @@
     padding: 2px;
   }
 
-
   .socmedia-icon {
     display: block;
   }
 
-  .box-icon-menu {
+  .close-menu-btn {
     display: none;
   }
 }
-
 
 /**----------------------------------------------------------Desktop 1280  */
 @media only screen and (min-width: 1280px) {
@@ -380,11 +376,9 @@
     padding-right: 30px;
   }
 
-
   .logo {
     margin-right: 296px;
   }
-
 
   .navigation-list {
     margin-right: 281px;
@@ -397,7 +391,6 @@
     max-width: 1240px;
     width: 100%;
   }
-
 
   .logo {
     margin-right: 375px;
