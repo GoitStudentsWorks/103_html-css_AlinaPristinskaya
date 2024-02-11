@@ -23,11 +23,11 @@
 .yachtjet-title {
  color: #1b414b;
  flex-shrink: 0;
- min-width: 298px;
+ /* min-width: 298px; */
 }
-.yachtjet-about-text{
+/* .yachtjet-about-text{
  min-width:298px ;
-}
+} */
 .yachtjet-text-hero {
  font-weight: 400;
  font-size: 18px;
