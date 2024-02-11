@@ -25,7 +25,7 @@
     font-size: 32px;
     font-weight: 500;
     line-height: 32px;
-    letter-spacing: -0.002em;
+    letter-spacing: -0.02em;
     text-align: center;
     margin-bottom: 24px;
 }
@@ -64,6 +64,16 @@
     background: rgb(27, 65, 75);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media only screen and (max-width: 767px) {
+  .hero-title {
+    max-width: 335px;
+    
+  }
+  .hero-text {
+    max-width: 335px;
+    
+  }
+}
 
 @media only screen and (min-width: 768px) {
 
@@ -83,12 +93,14 @@
     }
 
     .hero-title {
+        max-width: 704px;
         font-size: 70px;
         font-weight: 500;
         line-height: 70px;
     }
 
     .hero-text {
+        max-width: 597px;
         font-size: 16px;
         font-weight: 300;
         line-height: 140%;
@@ -126,6 +138,7 @@
     }
 
     .hero-title {
+        max-width: 1001px;
         font-size: 80px;
         font-weight: 500;
         line-height: 80px;
