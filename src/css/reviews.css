@@ -1,6 +1,6 @@
 .reviews-container {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 .reviews-header {
@@ -61,7 +61,7 @@
 @media only screen and (min-width: 768px) {
   .reviews-container {
     padding-top: 75px;
-    padding-bottom: 75px;
+    padding-bottom: 150px;
   }
   .reviews-text {
     margin: 0 auto 75px;
