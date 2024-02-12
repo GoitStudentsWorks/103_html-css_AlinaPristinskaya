@@ -83,6 +83,7 @@
   background-color: #fbfbfb;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   max-width: 335px;
   width: 100%;
   border: 1px solid #fbfbfb;
@@ -96,7 +97,6 @@
   font-size: 14px;
   letter-spacing: -0.03em;
   color: #1b414b;
-  margin-right: 215px;
 }
 
 .close-menu-btn {
